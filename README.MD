@@ -1,25 +1,5 @@
-Bhai, aapne **Fake News Detector** project ke liye README text diya hai, aur yeh 03:10 AM IST, August 01, 2025 ko fix karne ke liye kaha gaya hai. Yeh README accha hai, lekin kuch formatting issues, inconsistent links, aur practical details mein thodi si sudhar ki zarurat hai. Chalo, isse clean, functional, aur user-friendly banate hain, aur GitHub pe sahi tarike se kaam karega. Main neeche improvements suggest kar raha hoon aur final version deta hoon.
-
-### Issues in the Current README
-1. **Formatting Errors**:
-   - Markdown code blocks (e.g., `bash`, `json`) are incomplete or misaligned (e.g., `Install Python dependencies bash` should be separate).
-   - Links like `[https://github.com/yourusername/fake-news-detector.git](https://github.com/yourusername/fake-news-detector.git)` are duplicated and need proper URL replacement.
-   - Extra text (e.g., `c:\z_projects\fake-news-detector\backend\models\tokenizer_config.json`) is out of place.
-
-2. **Inconsistencies**:
-   - API endpoint is listed as `http://127.0.0.1:7860/api/predict`, but Gradio typically uses `/predict` on the hosted URL (e.g., Hugging Face Space).
-   - Model and dataset download links are placeholders without actual URLs.
-
-3. **Practical Gaps**:
-   - No instructions for Hugging Face Space deployment.
-   - Chrome extension setup lacks troubleshooting tips.
-   - No version or last update info.
-
-### Fixed README
-Here’s the revised version with corrections and enhancements:
-
-```markdown
-# 🔍 TruthGuard: Fake News Detector
+```
+# 🔍 NewsLens: Fake News Detector
 
 A comprehensive fake news detection system powered by DistilBERT, featuring a web interface and Chrome extension for real-time news analysis.
 
@@ -171,6 +151,7 @@ fake-news-detector/
 - **Performance**: Optimized for speed and accuracy
 - **Model Size**: ~268MB
 - **Training Details**: Fine-tuned on DistilBERT base model with binary classification, evaluated using Accuracy, Precision, Recall, and F1-score.
+- **Download model files(folder)**: - https://huggingface.co/spaces/Nikshey/FN-Detector/tree/main/backend/models
 
 ## 📊 Dataset Information
 
@@ -180,7 +161,7 @@ fake-news-detector/
   - Real News Articles: Verified from credible sources
 - **Format**: CSV files with text content and labels
 - **Preprocessing**: Text cleaning and tokenization for DistilBERT
-- **Download**: [Dataset Link](https://www.kaggle.com/yourdatalink) (replace with actual link)
+- **Download**: [Dataset Link](https://huggingface.co/spaces/Nikshey/FN-Detector/tree/main/training/data)
 
 ## 🔌 API Endpoints
 
@@ -189,7 +170,7 @@ fake-news-detector/
   - Method: Web interface for interactive testing
 
 - **API Prediction**
-  - URL: `https://yourusername-fake-news-detector.hf.space/predict`
+  - URL: `https://huggingface.co/spaces/Nikshey/FN-Detector`
   - Method: POST
   - Payload:
     ```json
@@ -238,45 +219,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Open Source Community for tools and libraries.
 
 ## 📞 Support
-- Check the [Issues](https://github.com/yourusername/fake-news-detector/issues) page.
+- Check the [Issues](https://github.com/NiksheyYadav/fake-news-detector/issues) page.
 - Create a new issue with error messages and reproduction steps.
 - ⭐ Star this repo if you find it helpful!
+- [Email Me](mailto:relativity1905e@gmail.com)
+
 
 ## 📅 Version
 - v1.0 (Last updated: August 01, 2025)
 ```
-
-### Key Fixes and Improvements
-1. **Formatting**:
-   - Fixed code blocks (e.g., `bash`, `json`) with proper indentation.
-   - Removed duplicate links and corrected placeholders.
-
-2. **Inconsistencies**:
-   - Updated API endpoint to use Hugging Face Space URL (`/predict`) instead of local `7860/api/predict`.
-   - Added `/data/cache.db` for persistence on Hugging Face.
-
-3. **Practical Enhancements**:
-   - Added deployment instructions for Hugging Face Space (implied in URL updates).
-   - Included version and last update date.
-   - Added troubleshooting hints in "Support" section.
-
-4. **Links**:
-   - Replaced placeholder URLs (e.g., Kaggle links) with generic links. Update with actual links before publishing.
-
-### How to Use
-- Copy this into `README.md` in your `fake-news-detector` repo.
-- Replace `yourusername` and Kaggle links with actual values.
-- Commit and push: `git add README.md && git commit -m "Updated README" && git push`.
-
-### Verification
-- **Readability**: Check if it’s clear for users and developers.
-- **Links**: Ensure all URLs work after updates.
-- **Structure**: Confirm table of contents links to sections.
-
-### Next Steps (03:10 AM IST, August 01, 2025)
-- **Update Repo**: Add this README and push.
-- **Test Links**: Verify Kaggle and Space URLs.
-- **Feedback**: Batao agar kuch add ya change chahiye.
-- **Launch Prep**: Jab ready ho, Chrome Store submission ke liye taiyaar karo.
-
-Bhai, yeh README ab professional aur complete hai! Koi suggestion ya change chahiye to bolo, raat ke 3:10 baje bhi help karunga!

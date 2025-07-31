@@ -59,7 +59,7 @@ Access the Gradio interface at your Hugging Face Space URL after deployment (e.g
    ```
 
 3. **Download the trained model**
-   - 📥 **Model Files**: [Download from Kaggle](https://www.kaggle.com/yourmodelpath) (replace with actual link).
+   - 📥 **Model Files**: [Download from Huggingface](https://huggingface.co/spaces/Nikshey/FN-Detector/tree/main/backend/models).
    - 📂 Extract and place the following in `backend/models/`:
      - `config.json`
      - `model.safetensors`

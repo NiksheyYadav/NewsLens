@@ -1,4 +1,3 @@
-```
 # 🔍 NewsLens: Fake News Detector
 
 A comprehensive fake news detection system powered by DistilBERT, featuring a web interface and Chrome extension for real-time news analysis.
